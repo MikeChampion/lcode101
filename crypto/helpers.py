@@ -9,7 +9,7 @@ def alphabet_position(letter):
     elif letter in upper:
         char_ind = upper.index(letter)
     return char_ind
-
+    """test"""
 
 def rotate_character(char, rot):
     """Takes a 1 character string and an integer for rotation returns a 1 character string of the new character position"""
